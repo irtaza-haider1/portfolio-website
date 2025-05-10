@@ -3,6 +3,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import sweatpalsImage from "../assets/sweatpals.png";
 import apeakImage from "../assets/apeak.png";
 import funkyfoodImage from "../assets/funkyfood.png";
+import liferiseImage from "../assets/liferise.png";
 
 const projects = [
   {
@@ -37,12 +38,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "TravelBuddy",
-    description: "An all-in-one travel companion app with itinerary planning, booking services, and local recommendations.",
-    image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450&q=80",
-    tags: ["React Native", "Redux Toolkit", "Stripe API"],
-    github: "#",
-    demo: "#",
+    title: "Liferise: Mystic Mindfulness",
+    description: "A meditation and mindfulness app with guided sessions, neuroscience-based tools, and personalized horoscopes.",
+    image: liferiseImage,
+    tags: ["React Native", "Audio Integration", "State Management"],
+    github: "https://github.com/irtaza-haider1",
+    demo: "https://bnirvana.en.aptoide.com/app",
     color: "neon-purple"
   },
   {
