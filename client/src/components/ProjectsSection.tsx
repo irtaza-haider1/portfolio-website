@@ -2,6 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import sweatpalsImage from "../assets/sweatpals.png";
 import apeakImage from "../assets/apeak.png";
+import funkyfoodImage from "../assets/funkyfood.png";
 
 const projects = [
   {
@@ -26,12 +27,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "ChatConnect",
-    description: "A real-time messaging platform with end-to-end encryption, multimedia support, and group chat capabilities.",
-    image: "https://images.unsplash.com/photo-1611746869696-d09bce200020?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450&q=80",
-    tags: ["React Native", "Socket.io", "MongoDB"],
-    github: "#",
-    demo: "#",
+    title: "Funky Food",
+    description: "An e-commerce platform for rescued produce that helps reduce food waste by selling imperfect fruits and vegetables.",
+    image: funkyfoodImage,
+    tags: ["React Native", "E-commerce", "Payment Gateway"],
+    github: "https://github.com/irtaza-haider1",
+    demo: "https://funkyfood.com.au/",
     color: "neon-green"
   },
   {
