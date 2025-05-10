@@ -1,6 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import sweatpalsImage from "../assets/sweatpals.png";
+import apeakImage from "../assets/apeak.png";
 
 const projects = [
   {
@@ -15,12 +16,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "FoodExpress",
-    description: "An on-demand food delivery platform with real-time order tracking, payment integration, and restaurant discovery.",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450&q=80",
-    tags: ["React Native", "GraphQL", "TypeScript"],
-    github: "#",
-    demo: "#",
+    title: "Apeak Tennis",
+    description: "A mental training app for tennis players providing on-court exercises, performance coaching, and personalized feedback.",
+    image: apeakImage,
+    tags: ["React Native", "TypeScript", "AI Integration"],
+    github: "https://github.com/irtaza-haider1",
+    demo: "https://www.apeak.com/",
     color: "neon-blue"
   },
   {
