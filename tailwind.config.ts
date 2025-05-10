@@ -91,8 +91,8 @@ export default {
           "50%": { transform: "translateY(-20px)" }
         },
         pulse: {
-          "0%, 100%": { opacity: 1 },
-          "50%": { opacity: 0.5 }
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.5" }
         },
         spin: {
           from: { transform: "rotate(0deg)" },
