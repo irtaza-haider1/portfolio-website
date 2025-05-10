@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import profileImage from "../assets/profile.png";
 
 export default function AboutSection() {
   const [leftRef, isLeftVisible] = useScrollReveal();
@@ -45,7 +46,7 @@ export default function AboutSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <img 
-                src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800&q=80" 
+                src={profileImage} 
                 alt="Syed Irtaza Haider" 
                 className="w-full h-full object-cover rounded-full border-4 border-neon-purple p-1"
               />
