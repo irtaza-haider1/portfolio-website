@@ -1,15 +1,16 @@
 import ProjectCard from "@/components/ProjectCard";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import sweatpalsImage from "../assets/sweatpals.png";
 
 const projects = [
   {
     id: 1,
-    title: "FitTrack",
-    description: "A comprehensive fitness tracking app with personalized workout plans, progress tracking, and social features.",
-    image: "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=450&q=80",
-    tags: ["React Native", "Firebase", "Redux"],
-    github: "#",
-    demo: "#",
+    title: "SweatPals",
+    description: "A full-stack platform for fitness events & communities that lets users create, manage, and monetize their fitness events.",
+    image: sweatpalsImage,
+    tags: ["React Native", "Node.js", "MongoDB"],
+    github: "https://github.com/irtaza-haider1",
+    demo: "https://www.sweatpals.com/",
     color: "neon-purple"
   },
   {
