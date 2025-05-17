@@ -5,11 +5,11 @@ const experiences = [
   {
     id: 1,
     title: "Senior React Native Developer",
-    company: "MobileTech Solutions",
+    company: "Gitrex Technologies",
     period: "Current",
     description: "Leading mobile app development for enterprise clients, focusing on performance optimization and cross-platform compatibility.",
     achievements: [
-      "Developed and launched 3 mission-critical apps for finance and healthcare sectors",
+      "Developed and launched 3 mission-critical apps for fitness,finance and healthcare sectors",
       "Implemented CI/CD pipelines reducing deployment time by 40%",
       "Mentored junior developers and established coding standards"
     ],
@@ -19,11 +19,10 @@ const experiences = [
   {
     id: 2,
     title: "React Native Developer",
-    company: "AppInnovate Studios",
-    period: "2022-2023",
+    company: "Troon Technologies",
+    period: "May 2024 – Sep 2024",
     description: "Worked on consumer-facing mobile applications with focus on UI/UX excellence and seamless user experience.",
     achievements: [
-      "Built an e-commerce app that achieved 100k+ downloads in first quarter",
       "Integrated third-party APIs for payment processing and logistics",
       "Optimized app performance, reducing load time by 30%"
     ],
@@ -32,28 +31,26 @@ const experiences = [
   },
   {
     id: 3,
-    title: "Junior Mobile Developer",
-    company: "TechStart Innovations",
-    period: "2021-2022",
-    description: "Started my career developing features for established mobile applications and learning best practices.",
+    title: "Graphic Designer",
+    company: "IEIS Consulting",
+    period: "Jan 2024 – April 2024",
+    description: "Created visually appealing and brand-consistent social media posts for various platforms",
     achievements: [
-      "Contributed to 2 major app releases for startup clients",
-      "Developed reusable component library for internal projects",
-      "Implemented user authentication and data persistence features"
+      "Created visually appealing and brand-consistent social media posts for various platforms,helping clients increase their online presence and engagement. Developed creative concepts and layouts for marketing campaigns, ensuring alignment with the overall brand strategy",
+      "Designed professional logos and brand identity elements, translating client ideas into impactful visual representations."
     ],
     color: "neon-green",
     position: "right"
   },
   {
     id: 4,
-    title: "Mobile Development Intern",
-    company: "CodeCamp Academy",
-    period: "2021",
-    description: "Gained foundational experience in mobile development through hands-on projects and mentoring.",
+    title: "Designer Intern",
+    company: "Iqra Corporate Dept ",
+    period: "2022 – 2023",
+    description: "Gained foundational experience in Graphic Designing through hands-on projects and mentoring.",
     achievements: [
-      "Built a personal finance tracking app as capstone project",
-      "Learned React Native fundamentals and mobile app architecture",
-      "Collaborated with design team on UI/UX implementation"
+      "Developed and designed social media content for the corporate department, creating visually compelling posts that aligned with brand guidelines and targeted audience engagement.",
+      "Crafted unique and professional logo designs that reflected the corporate identity, working closely with stakeholders to capture the essence of the brand in visual form.",
     ],
     color: "neon-purple",
     position: "left"

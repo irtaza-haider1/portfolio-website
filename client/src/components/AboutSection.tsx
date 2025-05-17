@@ -8,6 +8,19 @@ export default function AboutSection() {
   const [leftRef, isLeftVisible] = useScrollReveal();
   const [rightRef, isRightVisible] = useScrollReveal();
 
+  const handleDownloadCV = () => {
+    // The CV file should be placed in the public folder
+    const cvPath = '/Syed_Irtaza_CV.pdf';
+    
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.download = 'Syed_Irtaza_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="about" className="py-20 md:py-28 bg-muted relative overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 relative z-10">
@@ -35,6 +48,7 @@ export default function AboutSection() {
             <Button 
               variant="outline"
               className="inline-flex items-center rounded-full bg-background border border-neon-blue text-neon-blue hover:bg-neon-blue/10 transition-colors"
+              onClick={handleDownloadCV}
             >
               <Download className="mr-2 h-4 w-4" /> Download CV
             </Button>
